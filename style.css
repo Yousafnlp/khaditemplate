@@ -1,0 +1,342 @@
+.nav-icons{
+    font-size: 20px;
+}
+
+.icon-text{
+    font-size: 10px;
+    font-weight: lighter;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.font-nav{
+    font-size: 14px;
+}
+
+.bg-purple{
+    background-color: #bca2d1;
+}
+
+.font-top-litle{
+    font-size: 12px;
+    color: white;
+    text-align: center;
+  }
+
+.font-top-litle-lined{
+    font-size: 12px;
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
+.body-swiper {
+    position: relative;
+    height: 100vh;
+  }
+
+.body-swiper {
+    background: white;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex!important;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+.box-yousaf img{
+    width: 100%;
+    height: auto;
+}
+
+.box-yousaf video{
+    width: 100%;
+    height: auto;
+
+}
+
+.bg-big-img{
+    background-image: url(https://pk.khaadi.com/media/wysiwyg/khaadi/01-01-category-banners/rangeen-0518-Homepage-Category-Banner-986x770.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 140vh;
+    width: 100%;
+    clip-path: polygon(100% 0, 100% 13%, 97.5% 13%, 100% 16%, 100% 100%, 0 100%, 0% 118%, 0 0);
+}
+
+.padding-pc{
+    padding: 2% 5%!important;
+}
+
+.btn-gray{
+    background-color: #f1f1f1;
+    color: #2d2b2a !important;
+    border: 1px solid transparent;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.btn-gray:hover{
+    background-color: #2d2b2a;
+    color: #ffffff!important;
+    cursor: pointer;
+}
+
+.img-sm-sc {
+  background-image: url(https://pk.khaadi.com/media/catalog/product/b/c/bca230402_pink_2_1.jpg?width=300&height=&canvas=300:&quality=95&bg-color=255,255,255&fit=bounds);
+    width: 100%!important;
+    height: auto!important;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+   
+}
+
+.img-sm-sc:hover{
+    background-image: url(https://pk.khaadi.com/media/catalog/product/b/c/bco230401_black_2_1.jpg?width=300&height=&canvas=300:&quality=95&bg-color=255,255,255&fit=bounds);
+    background-size: cover;
+    background-position: center;
+   
+}
+
+.img-sm-sc img {
+  opacity: 0;
+}
+
+
+
+.img-sm-sc2 {
+  background-image: url(https://pk.khaadi.com/media/catalog/product/b/c/bco230401_black_2_1.jpg?width=300&height=&canvas=300:&quality=95&bg-color=255,255,255&fit=bounds);
+  background-size: cover;
+  background-position: center;
+  width: 100%!important;
+    height: auto!important;
+    object-fit: cover;
+}
+
+.img-sm-sc2:hover{
+  background-image: url(https://pk.khaadi.com/media/catalog/product/b/c/bca230402_pink_2_1.jpg?width=300&height=&canvas=300:&quality=95&bg-color=255,255,255&fit=bounds);
+  background-size: cover;
+  background-position: center;
+   
+}
+
+.img-sm-sc2 img {
+  opacity: 0;
+}
+ .suit-tagline{
+    display: flex;
+    font-size: 13px;
+    font-weight: 400;
+    justify-content: flex-start;
+    text-align: start;
+
+    
+ }
+
+ .suit-title{
+    margin-top: 4px;
+    color: #2d2b2a !important;
+    font-weight: 600;
+    font-size: 15px;
+
+    display: flex;
+    justify-content: flex-start;
+    text-align: start;
+
+    
+ }
+
+
+
+ .body-swipper-scroll {
+    position: relative;
+    height: 100%;
+  }
+
+  .body-swipper-scroll {
+    background: white;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    width: 100%;
+
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+.bg-gray{
+  background-color: #f1f1f1;
+}
+
+.btn-black{
+  background-color: #000;
+  color: #fff;
+  font-size: 14px;
+}
+
+.my-n-m{
+  margin-left: -15px;
+}
+
+.my-padding{
+  width: auto!important;
+  padding: 10px 10px 10px 30px!important;
+}
+
+.my-title{
+  font-size: 15px;
+  margin: 0px;
+}
+
+.my-tag-line{
+  margin: 0px;
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+.my-envalop{
+  top: 17px;
+  left: 25px;
+}
+
+.title-footer{
+  color: #2d2b2a !important;
+  font-weight: 600;
+}
+
+.tagline-footer{
+  color: #777;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.footer-logo{
+  width: 33px;
+}
+
+.footer-logo-u{
+  width: 48px;
+}
+
+.footer-logo-box{
+  justify-content: flex-end;
+}
+
+.footer-sub-heading{
+  color: #2d2b2a !important;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.footer-text{
+  color: #777 !important;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+
+.footer-text-khadi{
+  color: #2d2b2a !important;
+  font-size: 12px;
+}
+
+.m-opacity{
+  opacity: 0;
+}
+ 
+
+@media only screen and (max-width: 768px){
+    .bg-big-img{
+      width: 100%!important;
+      height: 82vh!important;
+    }
+    .padding-pc{
+      padding: 4%!important;
+  }
+
+  .my-reverse{
+    flex-direction: column-reverse;
+  }
+
+  .my-neg-margin{
+    margin-top: -15px;
+  }
+
+  .m-opacity{
+    display: none;
+   }
+ 
+  
+  }
+
+  
+@media only screen and (max-width: 480px){
+    .padding-pc{
+      padding: 1%!important;
+  }
+     .my-padding{
+      width: 100%!important;
+      padding: 10px 10px 10px 30px!important;
+  }
+     
+  }
+
+  
+  @media only screen and (max-width: 576px){
+  .my-padding{
+      width: 100%!important;
+      padding: 10px 10px 10px 30px!important;
+  }  
+  
+  
+  }
+
+  
+  @media only screen and (max-width: 991px){
+  
+    .footer-logo-box{
+      justify-content: flex-start;
+    }
+       
+    }
