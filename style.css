@@ -35,7 +35,7 @@
 
 .body-swiper {
     position: relative;
-    height: 100vh;
+    height: 85vh;
   }
 
 .body-swiper {
@@ -68,6 +68,38 @@
     object-fit: cover;
   }
 
+
+  .swiper-slide-img1{
+    display: block!important;
+    width: 100%!important;
+    height: 100%!important;
+    background-image: url(https://pk.khaadi.com/media/wysiwyg/khaadi/01-01-main-banners/May-2023/PK/golive-0510-1920x825-2.jpg)!important;
+    background-position: center!important;
+    background-size: cover!important;
+    
+  }
+
+  .swiper-slide-img2{
+    display: block!important;
+    width: 100%!important;
+    height: 100%!important;
+    background-image: url(https://pk.khaadi.com/media/wysiwyg/khaadi/01-01-main-banners/May-2023/PK/rangeen-0518-1920x825.jpg)!important;
+    background-position: top!important;
+    background-size: cover!important;
+    
+  }
+
+  .swiper-slide-img3{
+    display: block!important;
+    width: 100%!important;
+    height: 100%!important;
+    background-image: url(https://pk.khaadi.com/media/wysiwyg/khaadi/01-01-main-banners/May-2023/PK/Desk-Web-Banner-0526-1920x825.jpg)!important;
+    background-position: center!important;
+    background-size: cover!important;      
+    }
+
+
+
 .box-yousaf img{
     width: 100%;
     height: auto;
@@ -80,13 +112,29 @@
 }
 
 .bg-big-img{
-    background-image: url(https://pk.khaadi.com/media/wysiwyg/khaadi/01-01-category-banners/rangeen-0518-Homepage-Category-Banner-986x770.jpg);
     background-size: cover;
     background-position: center;
     height: 140vh;
     width: 100%;
     clip-path: polygon(100% 0, 100% 13%, 97.5% 13%, 100% 16%, 100% 100%, 0 100%, 0% 118%, 0 0);
 }
+
+.bg-big-img1{
+  background-image: url(https://pk.khaadi.com/media/wysiwyg/khaadi/01-01-category-banners/rangeen-0518-Homepage-Category-Banner-986x770.jpg);
+  }
+
+.bg-big-img2{
+  background-image: url(https://pk.khaadi.com/media/wysiwyg/khaadi/01-01-category-banners/Homepage-Category-Banner-0526-986x770.jpg);
+}
+
+.bg-big-img3{
+  background-image: url(https://pk.khaadi.com/media/wysiwyg/khaadi/01-01-category-banners/westerm-0516-Category-Banner-986x770.jpg);
+}
+
+.bg-big-img4{
+  background-image: url(https://pk.khaadi.com/media/wysiwyg/khaadi/01-01-category-banners/Makeherday-Homepage-Category-Banner-05-10-986x770.jpg);
+}
+
 
 .padding-pc{
     padding: 2% 5%!important;
@@ -119,7 +167,7 @@
 }
 
 .img-sm-sc:hover{
-    background-image: url(https://pk.khaadi.com/media/catalog/product/b/c/bco230401_black_2_1.jpg?width=300&height=&canvas=300:&quality=95&bg-color=255,255,255&fit=bounds);
+    background-image: url(https://pk.khaadi.com/media/catalog/product/e/e/eet23271_orange_2.jpg?width=300&height=&canvas=300:&quality=95&bg-color=255,255,255&fit=bounds);
     background-size: cover;
     background-position: center;
    
@@ -141,7 +189,7 @@
 }
 
 .img-sm-sc2:hover{
-  background-image: url(https://pk.khaadi.com/media/catalog/product/b/c/bca230402_pink_2_1.jpg?width=300&height=&canvas=300:&quality=95&bg-color=255,255,255&fit=bounds);
+  background-image: url(https://pk.khaadi.com/media/catalog/product/e/e/eet23271_orange_2.jpg?width=300&height=&canvas=300:&quality=95&bg-color=255,255,255&fit=bounds);
   background-size: cover;
   background-position: center;
    
@@ -188,22 +236,7 @@
     margin: 0;
     padding: 0;
   }
-
-  .swiper {
-    width: 100%;
-    height: 100%;
-  }
-
-  .swiper-slide {
-    width: 100%;
-
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-  }
+  
 
 .bg-gray{
   background-color: #f1f1f1;
@@ -272,7 +305,6 @@
 .footer-text{
   color: #777 !important;
   font-size: 13px;
-  cursor: pointer;
 }
 
 
@@ -286,10 +318,20 @@
 }
  
 
+.my-mobile-nav{
+  display:  none;
+}
+
+
+.unde-footer:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 @media only screen and (max-width: 768px){
     .bg-big-img{
       width: 100%!important;
-      height: 82vh!important;
+      height: 70vh!important;
     }
     .padding-pc{
       padding: 4%!important;
@@ -313,7 +355,10 @@
   
 @media only screen and (max-width: 480px){
     .padding-pc{
-      padding: 1%!important;
+      padding-top: 4% !important;
+      padding-bottom: 4% !important;
+      padding-left: 2% !important;
+      padding-right: 2% !important;
   }
      .my-padding{
       width: 100%!important;
@@ -323,14 +368,6 @@
   }
 
   
-  @media only screen and (max-width: 576px){
-  .my-padding{
-      width: 100%!important;
-      padding: 10px 10px 10px 30px!important;
-  }  
-  
-  
-  }
 
   
   @media only screen and (max-width: 991px){
@@ -340,3 +377,39 @@
     }
        
     }
+
+
+    @media only screen and (max-width: 768px){
+
+      .swiper-slide-img1{
+        background-image: url(https://pk.khaadi.com/media/wysiwyg/khaadi/01-01-main-banners/May-2023/PK/golive-0510-750x1120-2.jpg)!important;
+      }
+  
+      .swiper-slide-img2{
+        background-image: url(https://pk.khaadi.com/media/wysiwyg/khaadi/01-01-main-banners/May-2023/PK/rangeen-0518-750x1120.jpg)!important;
+      }
+  
+      .swiper-slide-img3{
+        background-image: url(https://pk.khaadi.com/media/wysiwyg/khaadi/01-01-main-banners/May-2023/PK/Mob-XL-Web-Banner-0526-750x1120.jpg)!important;
+      }
+  
+  
+      .my-mobile-nav{
+        display:  block;
+      }
+  
+    .my-laptop-nav{
+      display: none;
+    }
+    
+    }
+
+
+  
+    @media only screen and (max-width: 360px){
+  
+      .bank{
+        width: 95%;
+      }
+         
+      }
