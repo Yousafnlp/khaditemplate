@@ -401,6 +401,10 @@
     .my-laptop-nav{
       display: none;
     }
+        
+     .body-swiper{
+        height: 75vh;
+      }
     
     }
 
